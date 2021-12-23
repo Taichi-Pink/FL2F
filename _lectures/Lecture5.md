@@ -1,10 +1,10 @@
 ---
 type: lecture
-date: 2022-03-14T8:00:00+4:30 
-title: "Lecture #1"
+date: 2022-03-30T8:00:00+4:30 
+title: "Lecture #5"
 
 # optional
-tldr: "Introduction, Gender Bias, IP."
+tldr: "Strategic Planning, Funding Support, Alliances."
 
 # optional
 # please use /static_files/notes directory to store notes

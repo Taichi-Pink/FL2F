@@ -1,10 +1,10 @@
 ---
 type: lecture
-date: 2022-03-14T8:00:00+4:30 
-title: "Lecture #1"
+date: 2022-03-16T8:00:00+4:30 
+title: "Lecture #3"
 
 # optional
-tldr: "Introduction, Gender Bias, IP."
+tldr: "Real Pain, Vision and Mission, Entrepreneurial Mindset, Skill Development."
 
 # optional
 # please use /static_files/notes directory to store notes
