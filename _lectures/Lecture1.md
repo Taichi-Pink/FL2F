@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-12-23T8:00:00+4:30 
-title: <Title of this lecture>
+title: Lecture #1
 
 # optional
 # please use /static_files/notes directory to store notes
