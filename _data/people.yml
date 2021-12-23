@@ -1,19 +1,14 @@
 instructors:
-  - name: Albus Dumbledore
-    profile_pic: /_images/pp/dumbledore.jpg
-    webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
-  - name: Minerva McGonagall
-    profile_pic: /_images/pp/mcgonagall.jpg
+  - name: Dr. Orly Yadid-Pecht
+    profile_pic: /_images/pp/yadid-pecht-orly-2017_0.jpeg
+    webpage: https://www.ucalgary.ca/labs/integrated-intelligent-sensing/dr-orly-yadid-pecht
+
 
 teaching_assistants:
-  - name: Harry Potter
+  - name: Ziyi Liu
     profile_pic: /_images/pp/potter.jpg
     webpage: https://en.wikipedia.org/wiki/Harry_Potter_(character)
 
-  - name: Hermione Granger
+  - name: Arya Milani
     profile_pic: /_images/pp/granger.jpg
     webpage: https://en.wikipedia.org/wiki/Hermione_Granger
-
-  - name: Ron Weasley
-    profile_pic: /_images/pp/weasley.jpg
-    webpage: https://en.wikipedia.org/wiki/Ron_Weasley
