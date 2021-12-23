@@ -8,7 +8,7 @@ course_semester: "Winter 2022"
 baseurl: "/FL2F" # the subpath of your site, e.g. /blog/
 url: "http://Taichi-Pink.github.io/" # the base hostname & protocol for your site
 
-schoolname: "From Lab To Fulfillment"
+schoolname: ""
 schoolurl: "https://www.fl2f.ca/"
 twitter_username: FromLab2Fulfillment 
 
