@@ -1,11 +1,11 @@
 ---
 type: lecture
-date: 20xx-xx-xxTx:xx:xx+4:30 
+date: 2021-12-23T8:00:00+4:30 
 title: <Title of this lecture>
 
 # optional
 # please use /static_files/notes directory to store notes
-thumbnail: /static_files/path/to/image.jpg
+thumbnail: /static_files/presentations/lec.jpg
 
 # optional
 tldr: "What is AI? How does it impact our lives? The current state of the art."
