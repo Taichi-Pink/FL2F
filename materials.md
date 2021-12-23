@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Materials
+title: Course Materials
 permalink: /materials/
 ---
 
