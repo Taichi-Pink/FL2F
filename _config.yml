@@ -1,19 +1,21 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: From Lab To Fulfillment
+course_description: "From Lab 2 Fulfillment (FL2F) is a purpose-driven workshop that teaches women in science, engineering, technology, and math (STEM) and Medicine how to transform their research & discoveries into products and companies.
+
+From Lab 2 Fulfillment was created by Dr. Yadid-Pecht to guide women in STEM and Medicine towards commercialization. Small interactive sessions alongside one-on-one coaching cultivate a supportive space to ideate and pivot research into businesses. The process that Dr. Yadid-Pecht has designed helps women in STEM and Medicine make their scientific innovations more impactful by showing them how to overcome hurdles, find supporters, and build their strategic plans and alliances."
+course_semester: "Winter 2022"
 
 baseurl: "/FL2F" # the subpath of your site, e.g. /blog/
 url: "http://Taichi-Pink.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolname: "From Lab To Fulfillment"
+schoolurl: "https://www.fl2f.ca/"
+twitter_username: FromLab2Fulfillment 
 
 address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+    University of Calgary, 2500 University Dr NW
+    Calgary
+    Canada
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
