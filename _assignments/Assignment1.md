@@ -10,7 +10,9 @@ due_event:
     date: 2022-03-14T23:59:00+3:30
     description: 'Assignment #1 due'
 ---
+*** high ***
 1. Answer first 4q (of 12q) for your idea.
 2. Check your Implicit-Bias (optional, self check using HBR site) 
 3. Check how patentable your idea is (subject matter, novelty).
+
 
