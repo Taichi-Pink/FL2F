@@ -3,8 +3,8 @@ type: assignment
 date: 2022-03-16T4:00:00+4:30
 title: 'Assignment #3'
 #pdf: /static_files/assignments/asg.pdf
-attachment: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
-attachment: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
+attachment1: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
+attachment2: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
 
 # optional
 links: 

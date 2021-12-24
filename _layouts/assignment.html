@@ -17,25 +17,17 @@ title: page.title
       {% if page.pdf %}
       [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
       {% endif %}
-      {% if page.attachment %}
-      [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment</a>]
+      {% if page.attachment1 %}
+      [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment for dan</a>]
+      {% endif %}
+      {% if page.attachment2 %}
+      [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment for dana</a>]
       {% endif %}
       {% if page.solutions %}
       [<a href="{{ page.solutions | prepend: site.baseurl }}">solutions</a>]
       {% endif %}
        {% if page.solutions %}
       [<a href="{{ page.solutions | prepend: site.baseurl }}">solutions</a>]
-      {% endif %}
-   
-      {% if page.links %}
-      {% for link in page.links %}
-      [<a title="Download {{ link.name }}" href="
-      {% if link.url contains '://' %}
-        {{ link.url }} 
-      {% else %}
-        {{ link.url | prepend: site.baseurl }} 
-      {% endif %}">{{ link.name }}</a>]
-      {% endfor %}
       {% endif %}
 
 
