@@ -1,7 +1,7 @@
 ---
 type: raw_event
-date: 2019-01-26T08:00:00+3:30
+date: 2022-03-30T11:00:00+3:30
 name: Session
-description: 'Sample Raw Event'
+description: 'Guest Talk'
 hide_from_announcments: true
 ---
