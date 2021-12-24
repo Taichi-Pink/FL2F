@@ -3,7 +3,7 @@ type: assignment
 date: 2022-03-30T8:00:00
 title: 'Assignment #5'
 #pdf: /static_files/assignments/asg.pdf
-attachment: /static_files/assignments/FL2F_12 Question template.pptx
+attachment1: /static_files/assignments/FL2F_12 Question template.pptx
 #solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
