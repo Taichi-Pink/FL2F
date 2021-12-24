@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2022-03-16T4:00:00+4:30
+date: 2022-03-16T8:00:00
 title: 'Assignment #3'
 #pdf: /static_files/assignments/asg.pdf
 attachment1: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
@@ -9,7 +9,7 @@ attachment2: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
 #solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2022-03-28T23:59:00+3:30
+    date: 2022-03-28T23:59:00
     description: 'Assignment #3 due'
 ---
 ## Content
