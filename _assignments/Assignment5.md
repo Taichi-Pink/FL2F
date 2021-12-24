@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2022-03-30T4:00:00+4:30
+date: 2022-03-30T 4:00:00+4:30
 title: 'Assignment #5'
 #pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/FL2F_12 Question template.pptx
