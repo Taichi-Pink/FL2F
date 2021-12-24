@@ -11,6 +11,6 @@ due_event:
     description: 'Assignment #2 due'
 ---
 ## Content
-- Strengthening your idea/ patent after TRIZ.
+- **Strengthening your idea/ patent after TRIZ.**
 
 
