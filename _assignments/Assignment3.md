@@ -4,7 +4,15 @@ date: 2022-03-16T4:00:00+4:30
 title: 'Assignment #3'
 #pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
-attachmentDan: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
+attachment: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
+
+# optional
+links: 
+    - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
+      name: attachment for Dan
+    - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
+      name: attachment for Dana
+      
 #solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
