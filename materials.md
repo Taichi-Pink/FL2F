@@ -4,11 +4,11 @@ title: Course Materials
 permalink: /materials/
 ---
 
-{% include image.html url="/_images/cover2.jpg" width=175 align="right" %}
+{% include image.html url="/_images/booklet.png" width=175 align="right" %}
 
-## Book
+## Booklet
 
-Alan Turing and Noam Chomsky: Very Famous Book
+[Booklet](http://www.example.com/)
 
 ## Additional Course Materials
 
