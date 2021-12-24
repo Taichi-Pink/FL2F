@@ -8,7 +8,7 @@ attachment: /static_files/assignments/FL2F_12 Question template.pptx
 due_event: 
     type: due
     date: 2022-04-04T23:59:00+3:30
-    description: 'Assignment #5 due'
+    description: 'final project #5 due'
 ---
 Prepare your pitch (10-15m, based on the 12 q’s).
 
