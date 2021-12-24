@@ -3,8 +3,8 @@ type: assignment
 date: 2022-03-16T4:00:00+4:30
 title: 'Assignment #3'
 #pdf: /static_files/assignments/asg.pdf
-attachment for Dan: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
-attachment for Dana: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
+attachment: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
+attachmentDan: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
 #solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
@@ -17,11 +17,11 @@ due_event:
 - Put the “Big Rocks” for the first goal in your calendar for the next week.
 - **Negotiation practice - preparation.**
     
-    Plese download and practice for your role.
+    Plese download file and practice for your role.
     
-    Dan: 
+    Dan:  Ziyi0, Ziyi1, Ziyi2
     
-    Dana: 
+    Dana: Ziyi3, Ziyi4, Ziyi5 
     
 - *(Optional) complete the sheet of Vision/Mission for all areas.*
 
