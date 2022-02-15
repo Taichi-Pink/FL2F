@@ -4,7 +4,9 @@
 {% assign events_to_show = "" | split: "" %}
 {% for e in all_events %}
     {% unless e.hide_from_announcments %}
-        {% if e.date <= "today" %}            
+        {% if e.date <= "today" %} 
+                         {{"today"}}
+                         {{e.date}}
             {% assign events_to_show = events_to_show | push: e %}
         {% endif %}
     {% endunless %}
