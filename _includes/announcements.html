@@ -39,7 +39,7 @@
                     {% include lecture_links.html lecture=n %}
                     {% assign today_date = Date.now() | date: "%Y-%m-%d %H:%M" %}
                     {% assign post_date = n.date | date: "%Y-%m-%d %H:%M" %}
-                    <p id="myFrame"></p>
+                    <iframe id="myFrame" src="/default.asp"></iframe>
                     <p id="demo"></p>
                 {% elsif n.type == 'assignment' %}
                     New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
