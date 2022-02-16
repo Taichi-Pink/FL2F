@@ -23,15 +23,10 @@
             {% if n.type == 'lecture' %}
                 New Lecture is up: {{ n.title }}
                 {% include lecture_links.html lecture=n %}
-                <div id="repos">
-                    <div class="container">
-                        <!-- Filter controls -->
-                        <div class="field">
-                            var today = new Date();
-                            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-                        </div>
-                    </div>
-                {{time}}
+                {% assign today_date = 'now' | date: "%Y-%m-%d %H:%M" %}
+                {% assign post_date = n.date | date: "%Y-%m-%d %H:%M" %}
+
+                {{post_date}} <= {{today_date}}
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
             {% else%}
