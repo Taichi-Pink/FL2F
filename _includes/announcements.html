@@ -27,7 +27,6 @@
 {% assign all_events_sorted = all_events | sort: 'date' | reverse %}
 
 {% if all_events_sorted.size > 0 %}
-<p id="demo"></p>
 <div class="announcement-box" style="margin-top:30px">
 <h2>Updates</h2>
 <ul>
@@ -42,7 +41,7 @@
                     <iframe id="myFrame" src="/default.asp"></iframe>
                     <p id="demo"></p>
                 {% elsif n.type == 'assignment' %}
-                    New Assignment released xinhu: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
+                    New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
                 {% else%}
                     {{ n.description }}
                 {% endif %}
