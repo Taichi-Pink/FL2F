@@ -4,7 +4,7 @@
 {% assign events_to_show = "" | split: "" %}
 {% for e in all_events %}
     {% unless e.hide_from_announcments %}
-        {% if e.date <= site.time %}            
+        {% if e.date >= new Date(Date.now()).toLocaleString() %}            
             {% assign events_to_show = events_to_show | push: e %}
         {% endif %}
     {% endunless %}
@@ -24,7 +24,7 @@
                 {% if n.type == 'lecture' %}
                     New Lecture is up: {{ n.title }}
                     {% include lecture_links.html lecture=n %}
-                    <script>document.write(Date.now());</script>
+                    <script>document.write(new Date(Date.now()).toLocaleString());</script>
                 {% elsif n.type == 'assignment' %}
                     New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
                 {% else%}
