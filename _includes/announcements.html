@@ -26,7 +26,7 @@
                 {% assign today_date = 'now' | date: "%Y-%m-%d %H:%M" %}
                 {% assign post_date = n.date | date: "%Y-%m-%d %H:%M" %}
 
-                {{post_date}} <= {{today_date}}
+                {{today_date}}
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
             {% else%}
