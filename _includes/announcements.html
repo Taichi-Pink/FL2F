@@ -28,6 +28,9 @@
 
 {% if all_events_sorted.size > 0 %}
 <div class="announcement-box" style="margin-top:30px">
+    <iframe id="myFrame" src="/default.asp"></iframe>
+    <p>yeah!</p>
+                    <p id="demo"></p>
 <h2>Updates</h2>
 <ul>
     {% for n in all_events_sorted limit:7 %}
@@ -38,8 +41,7 @@
                     {% include lecture_links.html lecture=n %}
                     {% assign today_date = Date.now() | date: "%Y-%m-%d %H:%M" %}
                     {% assign post_date = n.date | date: "%Y-%m-%d %H:%M" %}
-                    <iframe id="myFrame" src="/default.asp"></iframe>
-                    <p id="demo"></p>
+                    
                 {% elsif n.type == 'assignment' %}
                     New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
                 {% else%}
