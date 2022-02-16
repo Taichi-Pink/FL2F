@@ -23,7 +23,11 @@
             {% if n.type == 'lecture' %}
                 New Lecture is up: {{ n.title }}
                 {% include lecture_links.html lecture=n %}
-                {{site.time}}
+                <script>
+                var today = new Date();
+                var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                </script>
+                {{time}}
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
             {% else%}
