@@ -10,7 +10,11 @@
         document.getElementById("demo").innerHTML = three_days_before;
     }
 </script>
-
+<div>
+<iframe id="myFrame" src="/default.asp"></iframe>
+    <p>yeah!</p>
+                    <p id="demo"></p>
+</div>
 {% assign all_events = site.events | concat: site.lectures %}
 {% assign all_events = all_events | concat: site.assignments %}
 
@@ -28,9 +32,7 @@
 
 {% if all_events_sorted.size > 0 %}
 <div class="announcement-box" style="margin-top:30px">
-    <iframe id="myFrame" src="/default.asp"></iframe>
-    <p>yeah!</p>
-                    <p id="demo"></p>
+    
 <h2>Updates</h2>
 <ul>
     {% for n in all_events_sorted limit:7 %}
@@ -43,7 +45,7 @@
                     {% assign post_date = n.date | date: "%Y-%m-%d %H:%M" %}
                     
                 {% elsif n.type == 'assignment' %}
-                    New Assignment released xinnhu: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
+                    New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
                 {% else%}
                     {{ n.description }}
                 {% endif %}
