@@ -14,7 +14,12 @@
 {% assign all_events_sorted = all_events | sort: 'date' | reverse %}
 
 <script>document.write(Math.round(Date.now() / (365 * 24 * 60 * 60 * 1000) + 1970 - 1));</script>
-
+<script> 
+    var today_date =new Date(); 
+    var h = today_date.getHours();
+    var m = today_date.getMinutes();
+    var s = today_date.getSeconds();
+</script>
 {% if all_events_sorted.size > 0 %}
 <div class="announcement-box" style="margin-top:30px">
 <h2>Updates</h2>
@@ -25,12 +30,6 @@
             {% if n.type == 'lecture' %}
                 New Lecture is up: {{ n.title }}
                 {% include lecture_links.html lecture=n %}
-                <script> 
-                    var today_date =new Date(); 
-                    var h = today_date.getHours();
-                    var m = today_date.getMinutes();
-                    var s = today_date.getSeconds();
-                </script>
                 {{h}}:{{m}}:{{s}}       
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
