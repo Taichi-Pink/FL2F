@@ -26,8 +26,9 @@
                     {% include lecture_links.html lecture=n %}
                     {% assign today_date = Date.now() | date: "%Y-%m-%d %H:%M" %}
                     {% assign post_date = n.date | date: "%Y-%m-%d %H:%M" %}
-                    {{today_date}}
-                     Date.now()
+                    var utc = new Date().toJSON().slice(0,10).replace(/-/g,'/');
+                    document.write(utc);
+                    
                 {% elsif n.type == 'assignment' %}
                     New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
                 {% else%}
