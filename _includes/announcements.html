@@ -18,12 +18,12 @@
 <h2>Updates</h2>
 <ul>
     {% for n in all_events_sorted limit:7 %}
+    <div future-date="{{ n.date | date: '%Y-%m-%d' }}">
     <li class="no-p-margin">
         {% if n.type %}
             {% if n.type == 'lecture' %}
                 New Lecture is up: {{ n.title }}
-                {% include lecture_links.html lecture=n %}
-                {% include future-date.html %}
+                {% include lecture_links.html lecture=n %}    
             {% elsif n.type == 'assignment' %}
                 New Assignment released: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]
             {% else%}
@@ -33,9 +33,10 @@
         {{ n.content }}
         {% endif %}
     </li>
+    </div>
     {% endfor %}
 </ul>
 {% endif %}
 </div>
-
+{% include future-date.html %}
 
