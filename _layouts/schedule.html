@@ -32,7 +32,7 @@ layout: default
                     </li>
                 {% endunless %}
             {% elsif event.type == 'due' %}
-                {% if event.description == 'Assignment #1 due' %}
+                {% if event.description == 'Assignment #1 due' or event.description == 'Assignment #2 due' or event.description == 'Assignment #3 due' or event.description == 'Assignment #4 due' or event.description == 'Assignment #5 due' %}
                     {% unless event.hide %}    
                         <li class="table-row table-row-{{ event.type}}">
                             {% include schedule_row_{{ event.type }}.html event=event %}
