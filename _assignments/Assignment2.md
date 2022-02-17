@@ -8,6 +8,7 @@ attachment1: /static_files/assignments/Contradiction Matrix-TRIZ.pdf
 hide_from_schedules: true
 due_event: 
     type: due
+    hide: true
     date: 2022-03-15T23:59:00
     description: 'Assignment #2 due'
 ---
