@@ -31,6 +31,16 @@ layout: default
                         {% include schedule_row_{{ event.type }}.html event=event %}
                     </li>
                 {% endunless %}
+            {% elsif event.type == 'due_event' %}
+                {{ event.description }}
+                {% if event.description == 'Assignment #1 due' %}
+                    {{ event.hide }}
+                    {% unless event.hide %}    
+                        <li class="table-row table-row-{{ event.type}}">
+                            {% include schedule_row_{{ event.type }}.html event=event %}
+                        </li>
+                    {% endunless %}
+                {% endif %}
             {% else %}
                 <li class="table-row table-row-{{ event.type}}">
                     {% include schedule_row_{{ event.type }}.html event=event %}
