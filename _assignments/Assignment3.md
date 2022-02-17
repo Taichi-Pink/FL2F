@@ -10,6 +10,7 @@ attachment2: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
 hide_from_schedules: true
 due_event: 
     type: due
+    hide: true
     date: 2022-03-28T23:59:00
     description: 'Assignment #3 due'
 ---
