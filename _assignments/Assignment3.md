@@ -7,6 +7,7 @@ attachment1: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
 attachment2: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
       
 #solutions: /static_files/assignments/asg_solutions.pdf
+hide_from_schedules: true
 due_event: 
     type: due
     date: 2022-03-28T23:59:00
