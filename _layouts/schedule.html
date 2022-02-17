@@ -24,8 +24,7 @@ layout: default
         {% assign all_events = all_events | concat: all_assignment_dues %}
         {% assign all_events_sorted = all_events | sort: 'date' %}
 
-        {% for event in all_events_sorted %}
-            {{ event.type }}:{{ event.description }}        |
+        {% for event in all_events_sorted %} 
             {% if event.type == 'assignment' %}
                 {% unless event.hide_from_schedules %}    
                     <li class="table-row table-row-{{ event.type}}">
@@ -33,9 +32,7 @@ layout: default
                     </li>
                 {% endunless %}
             {% elsif event.type == 'due' %}
-                enter_if: {{ event.description }}           |
                 {% if event.description == 'Assignment #1 due' %}
-                    event_hide: {{ event.hide }}
                     {% unless event.hide %}    
                         <li class="table-row table-row-{{ event.type}}">
                             {% include schedule_row_{{ event.type }}.html event=event %}
