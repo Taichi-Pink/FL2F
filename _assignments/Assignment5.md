@@ -14,7 +14,6 @@ description: 'Assignment #5 due'
 #pdf: /static_files/assignments/asg.pdf
 attachment1: /static_files/assignments/FL2F_12 Question template.pptx
 #solutions: /static_files/assignments/asg_solutions.pdf
-
 ---
 ## Content
 - Outline the funding support you require
