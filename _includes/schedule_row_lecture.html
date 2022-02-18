@@ -15,6 +15,7 @@
        <div class="schedule-lecture-links">
             {% include lecture_links.html lecture=include.event %}
        </div>
+    {% endunless %}
     
         <!-- <p style="margin-bottom: 2px">Suggested Readings:</p>
         <ul>
@@ -23,9 +24,9 @@
                 endif %}</li>
 
             {% endfor %}
-        </ul> -->
-    {% endunless%}
-    <!-- {% if include.event.content != '' %}
+        </ul> 
+    {% endunless %}
+    {% if include.event.content != '' %}
         {{ event.content }}
     {% endif %} -->
 </div>
