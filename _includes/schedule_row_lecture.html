@@ -16,17 +16,4 @@
             {% include lecture_links.html lecture=include.event %}
        </div>
     {% endunless %}
-    
-        <!-- <p style="margin-bottom: 2px">Suggested Readings:</p>
-        <ul>
-            {% for m in include.event.suggested_readings %}
-            <li class="raw_li">{% if m.url %}<a href="{{ m.url }}">{{ m.title }}</a>{% else %}{{ m.title }}{%
-                endif %}</li>
-
-            {% endfor %}
-        </ul> 
-    {% endunless %}
-    {% if include.event.content != '' %}
-        {{ event.content }}
-    {% endif %} -->
 </div>
