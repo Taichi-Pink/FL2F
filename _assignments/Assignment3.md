@@ -8,6 +8,7 @@ attachment2: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
       
 #solutions: /static_files/assignments/asg_solutions.pdf
 hide_from_schedules: true
+hide_from_announcments: true
 due_event: 
     type: due
     hide: true
