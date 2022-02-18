@@ -1,8 +1,8 @@
 ---
 type: exam
-date: 2022-03-31T9:0:0
+date: 2022-05-12T9:00:00
 description: 'Second 1/1 Meeting with Coach (1)'
-hide_from_announcments: true
+hide_from_announcments: false
 ---
 **Topics:**
 1. Topic 1
