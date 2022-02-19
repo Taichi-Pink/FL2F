@@ -2,7 +2,7 @@
 type: exam
 date: 2022-04-26T9:30:00
 description: 'Intro Meetings'
-hide_from_announcments: false
+hide_from_announcments: true
 ---
 **Topics:**
 1. Topic 1

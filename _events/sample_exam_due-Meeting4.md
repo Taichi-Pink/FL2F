@@ -2,7 +2,7 @@
 type: exam
 date: 2022-05-09T10:30:00
 description: ' First 1/1 Meeting with Coach (2)'
-hide_from_announcments: false
+hide_from_announcments: true
 ---
 **Topics:**
 1. Topic 1
