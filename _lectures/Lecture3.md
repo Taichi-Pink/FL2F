@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-05-04T9:00:00
+date: 2022-02-18T9:00:00
 title: "Lecture #3"
 
 # optional
