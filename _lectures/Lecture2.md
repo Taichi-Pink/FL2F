@@ -15,11 +15,5 @@ thumbnail: /static_files/presentations/L2.jpeg
 hide_from_announcments: false
 hide_from_schedules: false
 
-# optional
-links:
-  - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: slides
-  - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: video
 ---
 
