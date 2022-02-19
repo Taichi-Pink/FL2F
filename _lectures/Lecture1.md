@@ -18,9 +18,9 @@ hide_from_schedules: true
 # optional
 links:
 - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-name: slides
+  name: slides
 - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-name: video
+  name: video
 ---
 <!-- Other additional contents using markdown
 **Suggested Readings:**
