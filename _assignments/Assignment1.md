@@ -6,10 +6,10 @@ title: 'Assignment #1'
 hide_from_schedules: false
 hide_from_announcments: false
 due_event:
-type: due
+    type: due
     hide: false
-date: 2022-05-02T23:59:00
-description: 'Assignment #1 due'
+    date: 2022-05-02T23:59:00
+    description: 'Assignment #1 due'
 
 #pdf: /static_files/assignments/asg.pdf
 attachment1: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
