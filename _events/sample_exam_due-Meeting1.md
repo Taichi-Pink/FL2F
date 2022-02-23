@@ -1,8 +1,8 @@
 ---
 type: exam
-date: 2022-02-16T9:30:00
-description: 'Intro Meetings'
-hide_from_announcments: true
+date: 2022-02-22T9:30:00
+description: 'Intro Meetings (1)'
+hide_from_announcments: false
 ---
 **Topics:**
 1. Topic 1

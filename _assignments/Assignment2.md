@@ -1,14 +1,14 @@
 ---
 type: assignment
-date: 2022-02-16T03:30:00
+date: 2022-02-20T03:30:00
 title: 'Assignment #2'
 
 hide_from_schedules: false
-hide_from_announcments: true
+hide_from_announcments: false
 due_event:
     type: due
     hide: false
-    date: 2022-02-16T23:59:00
+    date: 2022-02-20T23:59:00
     description: 'Assignment #2 due'
 
 #pdf: /static_files/assignments/asg.pdf

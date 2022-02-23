@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-02-16T9:00:00
+date: 2022-02-20T9:00:00
 title: "Lecture #2"
 
 # optional
@@ -12,7 +12,7 @@ thumbnail: /static_files/presentations/L2.jpeg
 
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
-hide_from_announcments: true
+hide_from_announcments: false
 hide_from_schedules: false
 
 # optional
