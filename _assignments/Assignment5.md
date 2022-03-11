@@ -17,7 +17,7 @@ attachment1: /static_files/assignments/FL2F_12 Question template.pptx
 ---
 ## Content
 - Outline the funding support you require
-- Prepare your pitch (10-15m, based on the 12 q’s) and prepare for your 2<sup>nd</sup> 1/1 mtg
+- Prepare your pitch (10-15m, based on the 12 q’s) and prepare for your 2<sup>nd</sup>  1/1 mtg
 - **Fill in your Post-workshop survey (and fbk pls…)**
 
 *Here are the post survey links for each of you*
@@ -30,4 +30,4 @@ attachment1: /static_files/assignments/FL2F_12 Question template.pptx
 * [Professor](https://docs.google.com/forms/d/e/1FAIpQLSe3EAT4FCx4ASjjLmPDzAXtCuCmHPOpUgU8_PAbd6gR_LSirQ/viewform?usp=sf_link)
 
 
-#end
+---

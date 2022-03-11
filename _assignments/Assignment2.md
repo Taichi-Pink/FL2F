@@ -18,7 +18,7 @@ attachment1: /static_files/assignments/Contradiction Matrix-TRIZ.pdf
 ---
 ## Content
 - **Strengthening your idea/ patent after TRIZ.** Link to TRIZ Tool: http://www.triz40.com/TRIZ_GB.php
-- Prep for 1<sup>st</sup> 1/1 mtg (after Section 2)
+- Prep for 1<sup>st</sup>  1/1 mtg (after Section 2)
   * IP positioning
   * 4 questions template – draft to discuss
   
