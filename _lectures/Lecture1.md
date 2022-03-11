@@ -1,7 +1,7 @@
 ---
 type: lecture
-date: 2022-02-19T10:30:00
-title: "Lecture #1"
+date: 2022-03-03T10:30:00
+title: "Section #1"
 
 # optional
 tldr: "Introduction, Gender Bias, IP."
@@ -17,10 +17,10 @@ hide_from_schedules: false
 
 # optional
 links:
+- url: https://drive.google.com/file/d/13uXRLI_LABPSlz8jT38yVDy65NS1Ns1V/view?usp=sharing
+  name: Excerpt
 - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: slides
-- url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: video
+  name: Video
 ---
 <!-- Other additional contents using markdown
 **Suggested Readings:**

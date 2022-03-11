@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2022-05-10T03:30:00
+date: 2022-03-15T03:30:00
 title: 'Assignment #4'
 
 hide_from_schedules: true
@@ -8,7 +8,7 @@ hide_from_announcments: true
 due_event:
     type: due
     hide: true
-    date: 2022-05-10T23:59:00
+    date: 2022-03-15T23:59:00
     description: 'Assignment #4 due'
 
 #pdf: /static_files/assignments/asg.pdf

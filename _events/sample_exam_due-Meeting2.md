@@ -1,6 +1,6 @@
 ---
 type: exam
-date: 2022-02-15T9:30:00
+date: 2022-03-02T9:30:00
 description: 'Intro Meetings (2)'
 hide_from_announcments: true
 ---

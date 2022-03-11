@@ -1,7 +1,7 @@
 ---
 type: lecture
-date: 2022-05-11T9:00:00
-title: "Lecture #5"
+date: 2022-03-16T9:00:00
+title: "Section #5"
 
 # optional
 tldr: "Strategic Planning, Funding Support, Alliances."
@@ -17,10 +17,10 @@ hide_from_schedules: true
 
 # optional
 links:
+- url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
+  name: Excerpt
 - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: slides
-- url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: video
+  name: Video
 ---
 <!-- Other additional contents using markdown
 **Suggested Readings:**

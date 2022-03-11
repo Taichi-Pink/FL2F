@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2022-05-17T9:00:00
-title: "Lecture #6"
+title: "Section #6"
 
 # optional
 tldr: "Pitches, Efficacy, Summary."
@@ -15,10 +15,6 @@ thumbnail: /static_files/presentations/L6.png
 hide_from_announcments: true
 hide_from_schedules: true
 
-# optional
-links:
-- url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: slides
 ---
 <!-- Other additional contents using markdown
 **Suggested Readings:**

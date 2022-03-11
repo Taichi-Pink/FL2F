@@ -1,7 +1,7 @@
 ---
 type: lecture
-date: 2022-05-10T9:00:00
-title: "Lecture #4"
+date: 2022-03-15T9:00:00
+title: "Section #4"
 
 # optional
 tldr: "Lean Start-up, Team Buildup, Strategic Planning, Skill Development."
@@ -17,10 +17,10 @@ hide_from_schedules: true
 
 # optional
 links:
+- url: https://drive.google.com/file/d/10RCrAmsgv10KrLWwORCqkq-5Lv4sw-PC/view?usp=sharing
+  name: Excerpt
 - url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: slides
-- url: https://drive.google.com/file/d/11ECd8u9TIiW42uL76FSETSaQRlXqD-wU/view?usp=sharing
-  name: video
+  name: Video
 ---
 <!-- Other additional contents using markdown
 **Suggested Readings:**
