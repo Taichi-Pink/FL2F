@@ -12,6 +12,7 @@ due_event:
     description: 'Assignment #3 due'
 
 pdf: /static_files/assignments/Section 3 Handouts & HW.pdf
+pdf_name: Section 1 Handout & HW
 #attachment1: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
 #attachment2: /static_files/assignments/FL2F_4Q of 12 Question template.pptx
 #solutions: /static_files/assignments/asg_solutions.pdf
