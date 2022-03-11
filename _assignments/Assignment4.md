@@ -17,11 +17,11 @@ attachment1: /static_files/assignments/FL2F_12 Question template.pptx
 
 ---
 ## Content
-- Competitive advantage of your idea (questions 5,6,8,11 of the 12q).
+- Competitive advantage of your idea (questions 5, 6, 8, 11 of the 12q).
 - Preparation for ACT exercise.
-- * (Optional):   ALOHA – your Happiness definition:
+- (Optional):   ALOHA – your Happiness definition:
     - What is your definition of happiness?
-    - Outline a list of things that make you happy.*
+    - Outline a list of things that make you happy.
 
 
 
