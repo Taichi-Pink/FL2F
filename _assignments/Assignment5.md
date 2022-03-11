@@ -12,7 +12,7 @@ due_event:
     description: 'Assignment #5 due'
 
 pdf: /static_files/assignments/Section 5 HW.pdf
-pdf_name: Section 6 Handout & HW
+pdf_name: Section 5 Handout & HW
 attachment1: /static_files/assignments/FL2F_12 Question template.pptx
 attachment1_name: FL2F_12 Question template
 #solutions: /static_files/assignments/asg_solutions.pdf
@@ -32,4 +32,4 @@ attachment1_name: FL2F_12 Question template
 * [Professor](https://docs.google.com/forms/d/e/1FAIpQLSe3EAT4FCx4ASjjLmPDzAXtCuCmHPOpUgU8_PAbd6gR_LSirQ/viewform?usp=sf_link)
 
 
-##
+---
