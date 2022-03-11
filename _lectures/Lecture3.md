@@ -13,7 +13,7 @@ thumbnail: /static_files/presentations/L3.png
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
 hide_from_announcments: true
-hide_from_schedules: true
+hide_from_schedules: false
 
 # optional
 links:
