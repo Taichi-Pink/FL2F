@@ -3,11 +3,11 @@ type: assignment
 date: 2022-03-11T03:30:00
 title: 'Assignment #4'
 
-hide_from_schedules: true
-hide_from_announcments: true
+hide_from_schedules: false
+hide_from_announcments: false
 due_event:
     type: due
-    hide: true
+    hide: false
     date: 2022-03-11T23:59:00
     description: 'Assignment #4 due'
 
