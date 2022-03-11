@@ -12,9 +12,9 @@ due_event:
     description: 'Assignment #2 due'
 
 pdf: /static_files/assignments/Section 2 Handout & HW.pdf
-pdf_name: Section 1 Handout & HW
+pdf_name: Section 2 Handout & HW
 attachment1: /static_files/assignments/Contradiction Matrix-TRIZ.pdf
-attachment1_name: FL2F_4Q of 12 Question template
+attachment1_name: Contradiction Matrix-TRIZ
 #solutions: /static_files/assignments/asg_solutions.pdf
 
 ---
