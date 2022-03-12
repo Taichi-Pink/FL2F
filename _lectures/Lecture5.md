@@ -22,7 +22,7 @@ links:
 - url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
   name: video
   hide_from_lectures: false
-      hide_from_lectures: false
+
 <!-- Other additional contents using markdown
 **Suggested Readings:**
 - [Readings 1](https://google.com)
