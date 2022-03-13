@@ -1,13 +1,14 @@
-
+    
     {% if include.lecture.links %}
-        {% for link in include.lecture.links %}
-            {% unless link.hide_from_lectures %}
-            [<a title="Download {{ link.name }}" href="
-            {% if link.url contains '://' %}
-              {{ link.url }} 
-            {% else %}
-              {{ link.url | prepend: site.baseurl }} 
-            {% endif %}">{{ link.name }}</a>]
-            {% endunless %}
-        {% endfor %}
+    {% for link in include.lecture.links %}
+    {% unless link.hide_from_lectures %}
+    [<a title="Download {{ link.name }}" href="
+    {% if link.url contains '://' %}
+      {{ link.url }} 
+    {% else %}
+      {{ link.url | prepend: site.baseurl }} 
+    {% endif %}">{{ link.name }}</a>]
+    {% endunless %}
+    {% endfor %}
     {% endif %}
+    
