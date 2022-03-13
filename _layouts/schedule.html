@@ -41,8 +41,8 @@ layout: default
                     {% endunless %}
                 {% endif %}
             {% else %}
-                <li class="table-row table-row-{{ event.type}}">
-                    {% include schedule_row_lecture.html event=event %}
+                <li class="table-row table-row-{{ event.type }}">
+                    {% include schedule_row_{{ event.type }}.html event=event %}
                 </li>
             {% endif %}
 
