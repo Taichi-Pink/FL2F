@@ -28,21 +28,21 @@ layout: default
             {{ event.type }}
             {% if event.type == 'assignment' %}
                 {% unless event.hide_from_schedules %}    
-                    <li class="table-row table-row-{{ event.type}}">
+                    <li class="table-row table-row-assignment">
                         {% include schedule_row_assignment.html event=event %}
                     </li>
                 {% endunless %}
             {% elsif event.type == 'due' %}
                 {% if event.description == 'Assignment #1 due' or event.description == 'Assignment #2 due' or event.description == 'Assignment #3 due' or event.description == 'Assignment #4 due' or event.description == 'Assignment #5 due' or event.description == 'Post-workshop survey due' %}
                     {% unless event.hide %}    
-                        <li class="table-row table-row-{{ event.type}}">
+                        <li class="table-row table-row-due">
                             {% include schedule_row_due.html event=event %}
                         </li>
                     {% endunless %}
                 {% endif %}
             {% else %}
                 <li class="table-row table-row-{{ event.type}}">
-                    {% include schedule_row_{{ event.type }}.html event=event %}
+                    {% include schedule_row_lecture.html event=event %}
                 </li>
             {% endif %}
 
