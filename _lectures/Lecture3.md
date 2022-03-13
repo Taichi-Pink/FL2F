@@ -19,8 +19,20 @@ hide_from_schedules: false
 links:
 - url: https://drive.google.com/file/d/1UaVd_w4ZtJa76xgFViKltiCyhDGfr4LE/view?usp=sharing
   name: excerpt
-- url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
-  name: video
+- url: https://vimeo.com/542975970
+  name: video_Vision_and_Mission
+  hide_from_lectures: true
+- url: https://vimeo.com/540717844
+  name: video_Real_Pain_Part_2
+  hide_from_lectures: true
+- url: https://vimeo.com/540717806
+  name: video_Real_Pain_Part_1
+  hide_from_lectures: true
+- url: https://vimeo.com/540717764
+  name: video_Entrepreneurial_Mindset
+  hide_from_lectures: true
+- url: https://vimeo.com/542975956
+  name: video_Negotiation
   hide_from_lectures: true
 ---
 

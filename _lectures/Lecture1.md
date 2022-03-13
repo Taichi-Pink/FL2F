@@ -17,10 +17,16 @@ hide_from_schedules: false
 
 # optional
 links:
-    - url: https://drive.google.com/file/d/13uXRLI_LABPSlz8jT38yVDy65NS1Ns1V/view?usp=sharing
-      name: excerpt
-    - url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
-      name: video
-      hide_from_lectures: true
+- url: https://drive.google.com/file/d/13uXRLI_LABPSlz8jT38yVDy65NS1Ns1V/view?usp=sharing
+  name: excerpt
+- url: https://vimeo.com/540463153
+  name: video_Introduction
+  hide_from_lectures: true
+- url: https://vimeo.com/540717222
+  name: video_Intellectual_Property
+  hide_from_lectures: true
+- url: https://vimeo.com/540715051
+  name: video_Women_In_Building
+  hide_from_lectures: true
 ---
 

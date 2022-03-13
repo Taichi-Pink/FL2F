@@ -8,7 +8,7 @@ hide_from_announcments: false
 due_event:
     type: due
     hide: false
-    date: 2022-03-11T23:59:00
+    date: 2022-03-13T23:59:00
     description: 'Assignment #5 due'
 
 pdf: /static_files/assignments/Section 5 HW.pdf

@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-03-11T10:00:00
+date: 2022-03-13T10:00:00
 title: "Section #5"
 
 # optional
@@ -17,9 +17,18 @@ hide_from_schedules: false
 
 # optional
 links:
-    - url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
-      name: excerpt
-    - url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
-      name: video
-      hide_from_lectures: false
+- url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
+  name: excerpt
+- url: https://vimeo.com/540718156
+  name: video_Strategic_Planning
+  hide_from_lectures: false
+- url: https://vimeo.com/540718092
+  name: video_Alliances
+  hide_from_lectures: false
+- url: https://vimeo.com/542988434
+  name: video_Valuation_Alternatives
+  hide_from_lectures: false
+- url: https://vimeo.com/540718130
+  name: video_Funding_Support
+  hide_from_lectures: false
 ---

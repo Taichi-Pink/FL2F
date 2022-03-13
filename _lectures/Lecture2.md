@@ -19,8 +19,17 @@ hide_from_schedules: false
 links:
 - url: https://drive.google.com/file/d/1UMuTnckLqDyk_kNzDx0vWF7hf-ILRD2h/view?usp=sharing
   name: excerpt
-- url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
-  name: video
+- url: https://vimeo.com/540717475
+  name: video_Triz
+  hide_from_lectures: true
+- url: https://vimeo.com/650159076
+  name: video_Combined_TRIZ_Examples
+  hide_from_lectures: true
+- url: https://vimeo.com/542473914
+  name: video_Trends_in_Technical_Evolution
+  hide_from_lectures: true
+- url: https://vimeo.com/540717435
+  name: video_Psychological_Blocks_to_Creativity
   hide_from_lectures: true
 ---
 

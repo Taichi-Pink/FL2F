@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-03-11T13:00:00
+date: 2022-03-13T13:00:00
 title: "Section #6"
 
 # optional
@@ -16,7 +16,4 @@ hide_from_announcments: false
 hide_from_schedules: false
 
 ---
-<!-- Other additional contents using markdown
-**Suggested Readings:**
-- [Readings 1](https://google.com)
-- [Readings 2](https://google.com) -->
+

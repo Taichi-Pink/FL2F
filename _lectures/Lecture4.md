@@ -17,9 +17,19 @@ hide_from_schedules: false
 
 # optional
 links:
-    - url: https://drive.google.com/file/d/10RCrAmsgv10KrLWwORCqkq-5Lv4sw-PC/view?usp=sharing
-      name: excerpt
-    - url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
-      name: video
-      hide_from_lectures: false
+- url: https://drive.google.com/file/d/10RCrAmsgv10KrLWwORCqkq-5Lv4sw-PC/view?usp=sharing
+  name: excerpt
+- url:  https://vimeo.com/540717975
+  name: video_Resilience
+  hide_from_lectures: true
+- url: https://vimeo.com/540717906
+  name: video_Competitive_Advantage
+  hide_from_lectures: true
+- url: https://vimeo.com/540717945
+  name: video_Lean_Startup
+  hide_from_lectures: true
+- url: https://vimeo.com/540718054
+  name: video_Strategic_Planning
+  hide_from_lectures: true
+
 ---
