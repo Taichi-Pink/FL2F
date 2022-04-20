@@ -20,7 +20,7 @@
           var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
       
       if (decryptedHMAC !== encryptedHMAC) {
-        alert(passphrase + ' Bad passphrase! \n' + encryptedMsg +'\n'+ encryptedHMAC+'\n'+encryptedHTML +'\n'+ decryptedHMAC+'\n'+ plainHTML);
+        alert(encryptedMsg + ' Bad passphrase! \n' + encryptedHMAC+'\n'+encryptedHTML +'\n'+ decryptedHMAC+'\n'+ plainHTML);
         return;
       }
 
