@@ -17,13 +17,14 @@
           encryptedHMAC = encryptedMsg.substring(0, 64),
           encryptedHTML = encryptedMsg.substring(64),
           decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
-
+          var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
+      
       if (decryptedHMAC !== encryptedHMAC) {
-        alert('Bad passphrase!');
+        alert(passphrase + ' Bad passphrase! \n' + encryptedMsg +'\n'+ encryptedHMAC+'\n'+encryptedHTML +'\n'+ decryptedHMAC+'\n'+ plainHTML);
         return;
       }
 
-      var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
+      
       document.getElementById('encrypted_content').innerHTML = plainHTML;
     });
   </script>
