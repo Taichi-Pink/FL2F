@@ -1,5 +1,5 @@
 <div id="encrypted_content">
-{{ page.encrypted }}
+{{ include.lecture.encrypted }}
   <form id="encrypt_form" action="#" method="post">
     <input id="encrypt_password"
            type="password"
@@ -14,7 +14,7 @@
     document.getElementById('encrypt_form').addEventListener('submit', function(e) {
       e.preventDefault();
       var passphrase = document.getElementById('encrypt_password').value,
-          encryptedMsg = '{{ page.encrypted }}',
+          encryptedMsg = '{{ include.lecture.encrypted }}',
           encryptedHMAC = encryptedMsg.substring(0, 64),
           encryptedHTML = encryptedMsg.substring(64),
           decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
