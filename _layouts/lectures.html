@@ -4,6 +4,28 @@ layout: page
 
 {{ content }}
 
+{% form 'customer_login' %}
+
+  <div>
+    <label for="customerEmail">Email Address</label>
+    <input type="email"
+      name="customer[email]"
+      id="customerEmail"
+      autocorrect="off"
+      autocapitalize="off"
+      autocomplete="email">
+  </div>
+  <div>
+    <label for="customerPassword">Password</label>
+    <input type="password"
+      name="customer[password]"
+      id="customerPassword">
+  </div>
+
+  <input type="submit" value="Sign In" />
+
+{% endform %}
+
 <ul id="archive">
 {% for lecture in site.lectures %}
     {% unless lecture.hide_from_schedules %}
@@ -17,7 +39,7 @@ layout: page
         </div>
         {% endif %}
         <div class="content">
-            <! -- {% include encrypted.html lecture=lecture %} -->
+            <!-- {% include encrypted.html lecture=lecture %} -->
             
             <span style="font-weight: bold;">{{ lecture.title }}</span><br>
     
