@@ -1,0 +1,39 @@
+---
+type: lecture
+date: 2022-03-05T9:00:00
+title: "Section #3"
+
+# optional
+tldr: "Real Pain, Vision and Mission, Entrepreneurial Mindset, Skill Development."
+
+# optional
+# please use /static_files/notes directory to store notes
+thumbnail: /static_files/presentations/L3.png
+
+# optional
+# set it to true if you dont want this lecture to appear in the updates section
+hide_from_announcments: true
+hide_from_schedules: false
+
+# optional
+links:
+- url: https://drive.google.com/file/d/1UaVd_w4ZtJa76xgFViKltiCyhDGfr4LE/view?usp=sharing
+  name: excerpt
+- url: https://vimeo.com/542975970
+  name: video_Vision_and_Mission
+  hide_from_lectures: true
+- url: https://vimeo.com/540717844
+  name: video_Real_Pain_Part_2
+  hide_from_lectures: true
+- url: https://vimeo.com/540717806
+  name: video_Real_Pain_Part_1
+  hide_from_lectures: true
+- url: https://vimeo.com/540717764
+  name: video_Entrepreneurial_Mindset
+  hide_from_lectures: true
+- url: https://vimeo.com/542975956
+  name: video_Negotiation
+  hide_from_lectures: true
+
+encrypted: 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
+---

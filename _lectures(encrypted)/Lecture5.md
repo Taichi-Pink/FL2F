@@ -1,0 +1,36 @@
+---
+type: lecture
+date: 2022-03-14T10:00:00
+title: "Section #5"
+
+# optional
+tldr: "Strategic Planning, Funding Support, Alliances."
+
+# optional
+# please use /static_files/notes directory to store notes
+thumbnail: /static_files/presentations/L5.png
+
+# optional
+# set it to true if you dont want this lecture to appear in the updates section
+hide_from_announcments: false
+hide_from_schedules: false
+
+# optional
+links:
+- url: https://drive.google.com/file/d/1kaer7X_JYTbST6Mo20CEjhT9c8wRt647/view?usp=sharing
+  name: excerpt
+- url: https://vimeo.com/540718156
+  name: video_Strategic_Planning
+  hide_from_lectures: true
+- url: https://vimeo.com/540718092
+  name: video_Alliances
+  hide_from_lectures: true
+- url: https://vimeo.com/542988434
+  name: video_Valuation_Alternatives
+  hide_from_lectures: true
+- url: https://vimeo.com/540718130
+  name: video_Funding_Support
+  hide_from_lectures: true
+
+encrypted: 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
+---

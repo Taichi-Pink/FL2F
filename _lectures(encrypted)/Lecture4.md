@@ -1,0 +1,37 @@
+---
+type: lecture
+date: 2022-03-14T9:00:00
+title: "Section #4"
+
+# optional
+tldr: "Lean Start-up, Team Buildup, Strategic Planning, Skill Development."
+
+# optional
+# please use /static_files/notes directory to store notes
+thumbnail: /static_files/presentations/L4.jpeg
+
+# optional
+# set it to true if you dont want this lecture to appear in the updates section
+hide_from_announcments: false
+hide_from_schedules: false
+
+# optional
+links:
+- url: https://drive.google.com/file/d/10RCrAmsgv10KrLWwORCqkq-5Lv4sw-PC/view?usp=sharing
+  name: excerpt
+- url:  https://vimeo.com/540717975
+  name: video_Resilience
+  hide_from_lectures: true
+- url: https://vimeo.com/540717906
+  name: video_Competitive_Advantage
+  hide_from_lectures: true
+- url: https://vimeo.com/540717945
+  name: video_Lean_Startup
+  hide_from_lectures: true
+- url: https://vimeo.com/540718054
+  name: video_Strategic_Planning
+  hide_from_lectures: true
+
+
+encrypted: 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
+---

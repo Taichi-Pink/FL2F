@@ -1,0 +1,33 @@
+---
+type: lecture
+date: 2022-03-03T10:30:00
+title: "Section #1"
+
+# optional
+tldr: "Introduction, Gender Bias, IP."
+
+# optional
+# please use /static_files/notes directory to store notes
+thumbnail: /static_files/presentations/L1.jpeg
+
+# optional
+# set it to true if you dont want this lecture to appear in the updates section
+hide_from_announcments: true
+hide_from_schedules: false
+
+# optional
+links:
+- url: https://drive.google.com/file/d/13uXRLI_LABPSlz8jT38yVDy65NS1Ns1V/view?usp=sharing
+  name: excerpt
+- url: https://vimeo.com/540463153
+  name: video_Introduction
+  hide_from_lectures: true
+- url: https://vimeo.com/540717222
+  name: video_Intellectual_Property
+  hide_from_lectures: true
+- url: https://vimeo.com/540715051
+  name: video_Women_In_Building
+  hide_from_lectures: true
+
+encrypted: 1a2566177359addc046e09c268f37941551aa3f59cc00eb0958cf135619c05dcU2FsdGVkX1+smzWXtqPnB9a4D6ZrLilq1VHwyQG+qA99Ass0GsM9QaD71Rl8Xb5NKPJG4QcZVkuvgpZx+sviuWbvYFPL6b6SDG7dPyCej1jXL5w46Q898tiBHsJt9p6Rh9c7+//yKVkFOC1vMcBLjK0e5ay0+x803AFF9z5EvgkDgMd0FGI/061lbvRilgQkQoY7cY4YphljWkcB5YmlzjJOUdF4gF6RtcbZSnHwFzIkNtUyJw402STBLIYmG0MV3KyH4f+7verfF8p7S/k5dj2L4DL28NrERvxRAILMT6tSL5Eb49Vl3qYXc5Sa8OoBEcFT3InyHtEGy9adsYPv3hqFmn/oopUsTC1z3mlKterD0QGzXoTmK7I1OQcMloF4WnLAoA5WqnnkHkKy+FEBdme2u2ihIvw28NVzU6hDnb9yQZIBA7AG8KuIykpEoFJxMRB7tdQZo6MwK07KVxbkn1lBcIo+VNqfgtPwcQjvwzWJFuICzWSPjkqeECC1dxWpI8oeLQ3k+oy+DuGNyO0UNV60FNUBa9Rz9pXTVSUQQtR8kamRe7hzngEulsqhcQ+afKx+PNQAVQEWHP2W/7Cgcuz45mYP5uHoVJ5JkRm+4uJzF5+4o8QckBhjRjPUvCqeqIlGc9CTygD2wbFMX/Sx8Zyq6YIwAqVFkwHyO9bKi0LOnCAE9pIonfMeh3cDL4qJBD9v5b4/VqzzIiPs+qO8V1WSjxUDsilpMTN2dH0sXOE5IA/HldnlaklTqtQ3VIBdk6yTU8R+BXyKm5rBbssPOa03okIYtL3dFQkZJ8JVgGHIuIZ4SVZ7iZYwgl8cyzEEatBDUVVjvJNdkA2AuEklnLsGGTMJ9q+hyZz5ZfbwmH0N7Mo48rFvYZh8mi3834q502LsM3ncyuEHY0135GO6t0CXrhBotETZfsCmPXDrCriuvn1sJMEJxgJSw/cgVWUUqBO8cFuSCXMVaalmv90reFAO+43rJ1dyqD4EIXQBqYvHKSFwvZdxEv2RcmyQsZSLDRtLMj/lYrP7l9C/okR7g6A9FWWDERW41B6wY7R36cehRH3t3ZIDOtz4JYE4pQ6B2u2rOmsahTGcD5fedrRRTTjYwxBHLbF35+Qc0xAdAIVz30nIYE1966EZMZTnCfkw92h9oOoOE6xCbLjxwSY4h78//aP2hTmn/bBXzrLY7uxuEb1DrmD58IDHY8s0jMmocrYQTX8xIqruMZhmeVYa1xZ0YDNSbP5aWQr0r9ipXtCJh+I7YuYdF3wF02R1IscsaAstlxenarBnpm2YmWdPHWv3ztTT9xBFX+itN9rVSMe/UQy5pd04Hcnl0ByX3Rd5iZWLW2jiqMKcNqBQY6WjzbY3Uvi/zk1fB1sNq30aKqLB+wH9inluQsuoKRS3eccwbWRep0W1ki1fa8VRsCoLkD5ER7R8CcEjsyETRJdB7a5KhqOCahIDDTX+vSsXsV+unwjp8eGnzjZWP84tNS7A5kTVaZiAB3VR1bjecwamc3UnnvKN35eTl02wj7mFbp8QyXl+ojBHbC+e1m+/99ZCUTmx1sbQHtZIoLvlAIycl1Y8l/H8RWj001WtXLn29mvP90muXkcQgRnWIjyGjhagPZ173EtRz4Ar1yWvKwVsmW3FNQkGGPqwd6b2XJahjFxN08nNb/JpKBynaTtgE5ykCD/A72gFN/yL3FkHJ6tpFnGqEsJzEimUl8Ig8DZZGbegVdt4zrVXgDrTeetgVmc99ZI0rWEmyYPJtRQ/g5MSw49EpPCXVccR5vq1ihc3HgDl
+---

@@ -1,0 +1,20 @@
+---
+type: lecture
+date: 2022-03-15T13:00:00
+title: "Section #6"
+
+# optional
+tldr: "Pitches, Efficacy, Summary."
+
+# optional
+# please use /static_files/notes directory to store notes
+thumbnail: /static_files/presentations/L6.png
+
+# optional
+# set it to true if you dont want this lecture to appear in the updates section
+hide_from_announcments: false
+hide_from_schedules: false
+
+
+encrypted: 202755c5a0bb458e811b36d444e60306b31cf6d0b9ec19d341cf166aa212673dU2FsdGVkX183eVRTnU8CP9jmdSmplGekISlTHHhkmOd5Y1Wdg1K1Su16JnbxAx3gTf6JmgO+mNtOMmF5ST8kfIFZRARMQmzzdCiDYr1AoCWKcsI3aK6jaB7RtgXyG9l6aD0V1zKgs0V5U/548MnPypaZ2SQx61yS+CGfL+rxDjbj0Y+xXM0mgvQluFGoqBLlIF9wQ6HpX+SHLtvzSXWlqobIkxc78FvR5uFDzC2VGyPbgTU7FPA0/SlgW6uJA2Na8oVLGCv2YooatQUdBzoKzdE/z4Le2ATf376//p1xk4VpOYmVJg7fxf87LPoN/hX0sIuH0VVdxZNTX0w6UHAyEgeV0X520+w6PbnZPRhkLmMkhhm8Kl7h8pUWxJfq6V+jjzkofFkFiP6U4l0Dl8ZYv9u19PLUboaEqnXgRwqbNVWVETjCJf/SHNZ7ihX7scDlw47qZg7TrgsGxJJpBr2+l4T47i6pGwzpTlyOW39djcpXQKV/e1lAIIGp/WYZ8BkUTD+F3BeJcrzGlEWUvWuJhVLJTzsMsBcBX5LYkdvdy5YhHOf0doQhiJfCi6pKcGu4l9xBTGEQ+8TStXReSyL2IlTemdiyqHRFfInu/khfrCClMzAkFvpAdrPJFIvnZuKjwDOAl9q3pukJ9dgj0vb8Ndg7Rn9cwkFXFqxmFCoemYw9QBNGMa1lzRhaVWe+iJh5gKUrcm/j0N46Qx/32JrjD/o9X2yepfmwr3xt7zWOF8iRyg7KrfVCb9CoiYco8BsQ7TdSkDJX9uD75UpudSMsiR7gdfbMBqXNk3OlkxWK/h4+nnkeW9+MMsTQ8LVnRP5uSo7RsqnXW4vyXqvvVSAMXzYjTmxzWOqizVkMmLLEkn8=
+---

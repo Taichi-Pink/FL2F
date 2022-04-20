@@ -1,0 +1,36 @@
+---
+type: lecture
+date: 2022-03-04T9:00:00
+title: "Section #2"
+
+# optional
+tldr: "IP, Real Pain, Skill Development."
+
+# optional
+# please use /static_files/notes directory to store notes
+thumbnail: /static_files/presentations/L2.jpeg
+
+# optional
+# set it to true if you dont want this lecture to appear in the updates section
+hide_from_announcments: true
+hide_from_schedules: false
+
+# optional
+links:
+- url: https://drive.google.com/file/d/1UMuTnckLqDyk_kNzDx0vWF7hf-ILRD2h/view?usp=sharing
+  name: excerpt
+- url: https://vimeo.com/540717475
+  name: video_Triz
+  hide_from_lectures: true
+- url: https://vimeo.com/650159076
+  name: video_Combined_TRIZ_Examples
+  hide_from_lectures: true
+- url: https://vimeo.com/542473914
+  name: video_Trends_in_Technical_Evolution
+  hide_from_lectures: true
+- url: https://vimeo.com/540717435
+  name: video_Psychological_Blocks_to_Creativity
+  hide_from_lectures: true
+
+encrypted: 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
+---
