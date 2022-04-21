@@ -4,10 +4,9 @@
 {% else %}
     {% assign formnumber = 0 %}
 {% endif %}
-{{ formnumber }}
-{% assign pageform = page.forms[formnumber] %}
 
-{{ page.forms[formnumber] }}
+{% assign pageform = page.forms %}
+
 {{ pageform }}
 {{ pageform.form_engine }}
 {% if pageform.form_engine == 'netlify' %}
