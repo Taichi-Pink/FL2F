@@ -6,31 +6,36 @@ layout: default
 
     <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1>
     
-    <!-- {% include form.html form=forms %} -->
+    <!-- {% include form.html form=forms %} 
     
     <form>
       <label>Password: <input name="password" type="password" onChange="onChange()" /> </label><br />
       <label>Confirm : <input name="confirm"  type="password" onChange="onChange()" /> </label><br />
       <input type="submit" />
-    </form>
+    </form>-->
     
     <script>
     var x;
     function validateForm(){
-    x=document.forms["myForm"]["fname"].value;
+    var x=document.forms["myForm"]["fname"].value;
     
     if (x==null || x==""){
       alert("姓必须填写");
       return false;
       }
     }
+    if(x=="g"){
+        window.location="https://taichi-pink.github.io/FL2F/?fname=g"; 
+    }
     </script>
     
-    <form name="myForm">
+    <form name="myForm" onsubmit="return validateForm()">
     姓: <input type="text" name="fname">
     <input type="submit" value="提交">
     </form>
-    {{ document.forms["myForm"]["fname"].value }}
+    
+    {{ fname }}
+    
     {% include announcements.html %}
     <br />
 
