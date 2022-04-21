@@ -1,11 +1,15 @@
-{{ include.form }}
+
 {% if include.form %}
     {% assign formnumber = include.form | minus: 1 %}
 {% else %}
     {% assign formnumber = 0 %}
 {% endif %}
+{{ formnumber }}
 {% assign pageform = page.forms[formnumber] %}
 
+{{ page.forms[formnumber] }}
+{{ pageform }}
+{{ pageform.form_engine }}
 {% if pageform.form_engine == 'netlify' %}
     <form name="{{ page.title }} {% if formnumber > 0 %}{{ formnumber | plus:1 }}{% endif %}" id="{{ page.url | slugify }}" class="form autofill" method="POST" action="{{ pageform.redirect }}" data-netlify="true" netlify-honeypot="_gotcha">
         <input type="hidden" name="_to" value="{{ pageform.to }}">
