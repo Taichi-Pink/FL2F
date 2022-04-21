@@ -41,7 +41,78 @@ forms:
 
     <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1>
     
-    {% include form.html form="1" %}
+    <!-- {% include form.html form=forms %} -->
+    
+    <form id="{{ page.url | slugify }}" class="form autofill" method="POST" action="https://formspree.io/{{ forms.to }}">
+        <input type="hidden" name="_next" value="{{ site.url }}{{ forms.redirect }}" />
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_subject" value="{{ forms.subject }}" />
+
+    {% for item in forms.fields %}
+        {% if item.required %}{% assign requiredstar = '' %}{% else %}{% assign requiredstar = ' (optional)' %}{% endif %}
+        {% if item.required %}{% assign requiredtext = 'required' %}{% else %}{% assign requiredtext = '' %}{% endif %}
+
+        {% if item.input_type == 'textarea' %}
+            <div>
+                <label {% if forms.placeholders == true %}class="sr-only"{% endif %} for="{{ item.name }}">{{ item.placeholder }}{{ requiredstar }}</label>
+                <textarea name="{{ item.name }}" name="{{ item.name }}" id="{{ item.name }}" cols="30" rows="10" class="form-control" {% if forms.placeholders == true %}placeholder="{{ item.placeholder }}{{ requiredstar }}"{% endif %} {{ requiredtext }}></textarea>
+            </div>
+        {% elsif item.input_type == 'radio' %}
+            <div class="radio">
+                <label><input type="radio" name="{{ item.name }}" value="{{ item.placeholder }}" {{ requiredtext }}>{{ item.placeholder }}</label>
+            </div>
+        {% elsif item.input_type == 'checkbox' %}
+            <div class="checkbox">
+                <label><input type="checkbox" name="{{ item.name }}" value="{{ item.placeholder }}" {{ requiredtext }}>{{ item.placeholder }}</label>
+            </div>
+        {% elsif item.input_type == 'recaptcha' %}
+            <div>
+                {% if forms.form_engine == 'netlify' %}
+                    <div data-netlify-recaptcha></div>
+                {% else %}
+                    <div class="g-recaptcha" data-sitekey="{{ item.placeholder }}"></div>
+                {% endif %}
+            </div>
+        {% elsif item.input_type == 'html' %}
+            {{ item.placeholder }}
+        {% elsif item.input_type == 'submit' %}
+        <div>
+            <input type="{{ item.input_type }}" value="{{ item.placeholder }}" class="btn btn-primary" />
+        </div>
+
+        {% else %}
+            {% if item.name == 'name' %}
+                <div class="half">
+                    <label {% if forms.placeholders == true %}class="sr-only"{% endif %} for="firstname">First name{{ requiredstar }}</label>
+                    <input type="{{ item.input_type }}" name="firstname" id="firstname" class="form-control" {% if forms.placeholders == true %}placeholder="First name{{ requiredstar }}"{% endif %} {{ requiredtext }}>
+                </div>
+                <div class="half">
+                    <label {% if forms.placeholders == true %}class="sr-only"{% endif %} for="lastname">Last name{{ requiredstar }}</label>
+                    <input type="{{ item.input_type }}" name="lastname" id="lastname" class="form-control" {% if forms.placeholders == true %}placeholder="Last name{{ requiredstar }}"{% endif %} {{ requiredtext }}>
+                </div>
+            {% elsif item.name == 'address' %}
+                <div>
+                    <label {% if forms.placeholders == true %}class="sr-only"{% endif %} for="address">Address{{ requiredstar }}</label>
+                    <input type="{{ item.input_type }}" name="address" id="address" class="form-control" {% if forms.placeholders == true %}placeholder="Address{{ requiredstar }}"{% endif %} {{ requiredtext }}>
+                </div>
+                        <div class="half">
+                            <label {% if forms.placeholders == true %}class="sr-only"{% endif %} for="city">City{{ requiredstar }}</label>
+                            <input type="{{ item.input_type }}" name="city" id="city" class="form-control" {% if forms.placeholders == true %}placeholder="City{{ requiredstar }}"{% endif %} {{ requiredtext }}>
+                        </div>
+                        <div class="half">
+                            <label {% if forms.placeholders == true %}class="sr-only"{% endif %} for="postalcode">Postal code{{ requiredstar }}</label>
+                            <input type="{{ item.input_type }}" name="postalcode" id="postalcode" class="form-control" {% if forms.placeholders == true %}placeholder="Postal code{{ requiredstar }}"{% endif %} {{ requiredtext }}>
+                        </div>
+            {% else %}
+                <div>
+                    <label {% if forms.placeholders == true %}class="sr-only"{% endif %} for="{{ item.name }}">{{ item.placeholder }}{{ requiredstar }}</label>
+                    <input type="{{ item.input_type }}" name="{{ item.name }}" id="{{ item.name }}" class="form-control" {% if forms.placeholders == true %}placeholder="{{ item.placeholder }}{{ requiredstar }}"{% endif %} {{ requiredtext }}>
+                </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+</form>   
 
     
     {% include announcements.html %}
