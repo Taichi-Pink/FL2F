@@ -44,12 +44,21 @@ forms:
     
     <!-- {% include form.html form=forms %} -->
     
-    <form id="{{ page.url | slugify }}" class="form autofill" method="POST" action="https://formspree.io/{{ forms.to }}">
-        <input type="hidden" name="_next" value="{{ site.url }}{{ forms.redirect }}" />
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="hidden" name="_subject" value="{{ forms.subject }}" />
-
-   </form>   
+   <form
+  action="https://formspree.io/f/mzbojljq"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
     
     {% include announcements.html %}
