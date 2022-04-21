@@ -40,10 +40,9 @@ forms:
 <div class="home">
 
     <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1>
-    {{ page.layout }}
-    {% if page.forms[0] %}
-        {% include form.html form="1" %}
-    {% endif %}
+    
+    {% include form.html form="1" %}
+
     
     {% include announcements.html %}
     <br />
