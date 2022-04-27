@@ -7,4 +7,4 @@ hide_from_announcments: true
 
 **Meeting Schedule:**
 
-[meeting schedule register file](https://docs.google.com/spreadsheets/d/1m_tjLnElQ1pfBFgYUA1MTtg1XB4C8hPlRjn251LAEEE/edit?usp=sharing)
+[meeting schedule register file](https://docs.google.com/spreadsheets/d/1jJN0dd0Oc_BjJOtIUrYqD3RmB-K2lGHzj_In5E7TUEg/edit?usp=sharing)
