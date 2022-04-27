@@ -1,8 +1,8 @@
 ---
 type: exam
-date: 2022-03-01T9:30:00
+date: 2022-04-26T9:30:00
 description: 'Intro Meetings (1)'
-hide_from_announcments: true
+hide_from_announcments: false
 ---
 
 **Meeting Schedule:**
