@@ -20,7 +20,7 @@ layout: default
     var x=document.forms["myForm"]["fname"].value;
     
     if (x==null || x==""){
-      alert("姓必须填写");
+      alert("should input your name");
       return false;
       }
     }
@@ -30,8 +30,8 @@ layout: default
     </script>
     
     <form name="myForm" onsubmit="return validateForm()">
-    姓: <input type="text" name="fname">
-    <input type="submit" value="提交">
+    name: <input type="text" name="fname">
+    <input type="submit" value="submit">
     </form>
     
     {{ fname }}-->
