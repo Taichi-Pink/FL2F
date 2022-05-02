@@ -22,11 +22,11 @@ links:
 - url: https://vimeo.com/540463153
   name: video_Introduction
   hide_from_lectures: false
+- url: https://vimeo.com/540715051
+  name: video_Women_In_Business
+  hide_from_lectures: false
 - url: https://vimeo.com/540717222
   name: video_Intellectual_Property
-  hide_from_lectures: false
-- url: https://vimeo.com/540715051
-  name: video_Women_In_Building
   hide_from_lectures: false
 ---
 
