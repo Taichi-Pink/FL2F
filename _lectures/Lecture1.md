@@ -12,8 +12,8 @@ thumbnail: /static_files/presentations/L1.jpeg
 
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
-hide_from_announcments: true
-hide_from_schedules: true
+hide_from_announcments: false
+hide_from_schedules: false
 
 # optional
 links:
@@ -21,12 +21,12 @@ links:
   name: excerpt
 - url: https://vimeo.com/540463153
   name: video_Introduction
-  hide_from_lectures: true
+  hide_from_lectures: false
 - url: https://vimeo.com/540717222
   name: video_Intellectual_Property
-  hide_from_lectures: true
+  hide_from_lectures: false
 - url: https://vimeo.com/540715051
   name: video_Women_In_Building
-  hide_from_lectures: true
+  hide_from_lectures: false
 ---
 
