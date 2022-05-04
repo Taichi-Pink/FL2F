@@ -21,15 +21,15 @@ links:
   name: excerpt
 - url: https://vimeo.com/540717475
   name: video_Triz
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/650159076
   name: video_Combined_TRIZ_Examples
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/542473914
   name: video_Trends_in_Technical_Evolution
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540717435
   name: video_Psychological_Blocks_to_Creativity
-  hide_from_lectures: false
+  hide_from_lectures: true
 ---
 
