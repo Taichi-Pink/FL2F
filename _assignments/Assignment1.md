@@ -4,7 +4,7 @@ date: 2022-05-02T03:30:00
 title: 'Assignment #1'
 
 hide_from_schedules: false
-hide_from_announcments: false
+hide_from_announcments: true
 due_event:
     type: due
     hide: false
