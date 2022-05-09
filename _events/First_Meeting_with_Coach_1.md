@@ -2,7 +2,7 @@
 type: exam
 date: 2022-05-05T9:00:00
 description: ' First 1/1 Meeting with Coach (1)'
-hide_from_announcments: false
+hide_from_announcments: true
 ---
 
 **Meeting Schedule:**
