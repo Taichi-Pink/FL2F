@@ -19,7 +19,7 @@ hide_from_schedules: false
 links:
 - url: https://drive.google.com/file/d/10RCrAmsgv10KrLWwORCqkq-5Lv4sw-PC/view?usp=sharing
   name: excerpt
-- url:  https://vimeo.com/540717975
+- url: https://vimeo.com/540717975
   name: video_Resilience
   hide_from_lectures: false
 - url: https://vimeo.com/540717906
