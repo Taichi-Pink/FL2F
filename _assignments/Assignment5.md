@@ -3,11 +3,11 @@ type: assignment
 date: 2022-05-11T03:30:00
 title: 'Assignment #5'
 
-hide_from_schedules: true
-hide_from_announcments: true
+hide_from_schedules: false
+hide_from_announcments: false
 due_event:
     type: due
-    hide: true
+    hide: false
     date: 2022-05-11T23:59:00
     description: 'Assignment #5 due'
 
@@ -24,10 +24,7 @@ attachment1_name: FL2F_12 Question template
 
 *Here are the post survey links for each of you*
 
-* [Faezehsadat Shahidi](https://docs.google.com/forms/d/e/1FAIpQLSe3EAT4FCx4ASjjLmPDzAXtCuCmHPOpUgU8_PAbd6gR_LSirQ/viewform?usp=pp_url&entry.1293145514=Aevin%20Dtkin&entry.345308928=1&entry.888363358=2&entry.934047=3&entry.372875466=4&entry.2005884768=5&entry.403592147=4&entry.1879579192=3&entry.1263446590=2&entry.1998690236=1&entry.933103120=2)
-* [Temi Phillips](https://docs.google.com/forms/d/e/1FAIpQLSe3EAT4FCx4ASjjLmPDzAXtCuCmHPOpUgU8_PAbd6gR_LSirQ/viewform?usp=pp_url&entry.1293145514=ZIyi%20Liu&entry.345308928=3&entry.888363358=2&entry.934047=2&entry.372875466=2&entry.2005884768=2&entry.403592147=2&entry.1879579192=2&entry.1263446590=2&entry.1998690236=2&entry.933103120=2)
-* [Shaghayegh Shajari](https://docs.google.com/forms/d/e/1FAIpQLSe3EAT4FCx4ASjjLmPDzAXtCuCmHPOpUgU8_PAbd6gR_LSirQ/viewform?usp=pp_url&entry.1293145514=Sophia%20Cliplef&entry.345308928=3&entry.888363358=3&entry.934047=5&entry.372875466=2&entry.2005884768=4&entry.403592147=4&entry.1879579192=2&entry.1263446590=3&entry.1998690236=2&entry.933103120=4)
-* [Sedigheh Mahdavi](https://docs.google.com/forms/d/e/1FAIpQLSe3EAT4FCx4ASjjLmPDzAXtCuCmHPOpUgU8_PAbd6gR_LSirQ/viewform?usp=pp_url&entry.1293145514=Jeewon%20Lee&entry.345308928=3&entry.888363358=3&entry.934047=3&entry.372875466=3&entry.2005884768=3&entry.403592147=3&entry.1879579192=3&entry.1263446590=3&entry.1998690236=3&entry.933103120=3)
-
+* [Faezehsadat Shahidi](https://docs.google.com/forms/d/e/1FAIpQLScWIN5lhofo_oWnj-VGSh7d9utbhHlDbztSQh1E8X8LaEon8w/viewform)
+* [Temi Phillips](https://docs.google.com/forms/d/e/1FAIpQLScWIN5lhofo_oWnj-VGSh7d9utbhHlDbztSQh1E8X8LaEon8w/viewform)
 
 ---
