@@ -21,14 +21,14 @@ links:
   name: excerpt
 - url: https://vimeo.com/540718156
   name: video_Strategic_Planning
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540718092
   name: video_Alliances
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/542988434
   name: video_Valuation_Alternatives
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540718130
   name: video_Funding_Support
-  hide_from_lectures: false
+  hide_from_lectures: true
 ---
