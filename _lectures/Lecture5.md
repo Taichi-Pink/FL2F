@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-05-11T9:00:00
+date: 2022-06-08T11:00:00
 title: "Section #5"
 
 # optional
@@ -13,7 +13,7 @@ thumbnail: /static_files/presentations/L5.png
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
 hide_from_announcments: true
-hide_from_schedules: false
+hide_from_schedules: true
 
 # optional
 links:
