@@ -1,14 +1,14 @@
 ---
 type: assignment
-date: 2022-05-02T03:30:00
+date: 2022-05-30T03:30:00
 title: 'Assignment #1'
 
-hide_from_schedules: false
+hide_from_schedules: true
 hide_from_announcments: true
 due_event:
     type: due
-    hide: false
-    date: 2022-05-02T23:59:00
+    hide: true
+    date: 2022-05-30T23:59:00
     description: 'Assignment #1 due'
 
 pdf: /static_files/assignments/Section 1 Handout & HW.pdf
