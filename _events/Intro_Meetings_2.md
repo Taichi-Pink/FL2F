@@ -2,7 +2,7 @@
 type: exam
 date: 2022-05-26T11:30:00
 description: 'Intro Meetings (2)'
-hide_from_announcments: false
+hide_from_announcments: true
 ---
 
 **Meeting Schedule:**
