@@ -21,18 +21,18 @@ links:
   name: excerpt
 - url: https://vimeo.com/542975970
   name: video_Vision_and_Mission
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540717844
   name: video_Real_Pain_Part_2
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540717806
   name: video_Real_Pain_Part_1
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540717764
   name: video_Entrepreneurial_Mindset
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/542975956
   name: video_Negotiation
-  hide_from_lectures: false
+  hide_from_lectures: true
 ---
 
