@@ -21,15 +21,15 @@ links:
   name: excerpt
 - url: https://vimeo.com/540717975
   name: video_Resilience
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540717906
   name: video_Competitive_Advantage
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540717945
   name: video_Lean_Startup
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540718054
   name: video_Strategic_Planning
-  hide_from_lectures: false
+  hide_from_lectures: true
 
 ---
