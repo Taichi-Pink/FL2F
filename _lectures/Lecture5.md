@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-06-08T11:00:00
+date: 2022-07-27T09:00:00
 title: "Section #5"
 
 # optional
@@ -12,8 +12,8 @@ thumbnail: /static_files/presentations/L5.png
 
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
-hide_from_announcments: false
-hide_from_schedules: false
+hide_from_announcments: true
+hide_from_schedules: true
 
 # optional
 links:
@@ -21,14 +21,14 @@ links:
   name: excerpt
 - url: https://vimeo.com/540718156
   name: video_Strategic_Planning
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540718092
   name: video_Alliances
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/542988434
   name: video_Valuation_Alternatives
-  hide_from_lectures: false
+  hide_from_lectures: true
 - url: https://vimeo.com/540718130
   name: video_Funding_Support
-  hide_from_lectures: false
+  hide_from_lectures: true
 ---

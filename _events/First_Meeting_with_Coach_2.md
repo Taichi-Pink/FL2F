@@ -1,6 +1,6 @@
 ---
 type: exam
-date: 2022-06-06T12:30:00
+date: 2022-07-21T09:30:00
 description: ' First 1/1 Meeting with Coach (2)'
 hide_from_announcments: true
 ---

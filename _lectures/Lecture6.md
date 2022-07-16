@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-06-14T11:00:00
+date: 2022-08-02T09:00:00
 title: "Section #6"
 
 # optional
