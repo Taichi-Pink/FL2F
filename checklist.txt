@@ -1,0 +1,24 @@
+1. Run automate_schedule.py in /Document/Interest/FL2F-master/FL2F_Automate once 
+   before run: check _lecture/Lecture#.md->hide_from_announcments is true 
+                     _assignments/assignment#.md -> hide_from_schedules is true
+                     _events/
+                     file_name.py, change event file according to the order of the schedule
+    
+2. Run automate_file_links.py once
+   （1）For each workshop - if Updated 'meeting schedule register file' links
+    (2) change the code line 51-58 according to the total number of participants after section 5
+        before run: check assign5.md has the same number of links as that of participants
+    (3) Yearly - if Excerpt, Videos links updated for lectures
+    (4) Yearly - if Assignments links updated
+    (5) Yearly - if Booklet updated
+
+3. Daily - Run auto_announcement.py every morning 8 am
+    After run, check
+    (1) if assign & lecture show with 3 days in announcement
+    (2) lecture date, assignment date, due date
+    (3) assigment and assignment due and lectures are displayed only after a specific date in schedule and lecture/assignment section 
+    (4) video links in Lecture section only appear in one day not before not after
+    
+    
+
+
