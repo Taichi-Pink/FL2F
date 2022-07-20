@@ -12,8 +12,8 @@ thumbnail: /static_files/presentations/L3.png
 
 # optional
 # set it to true if you dont want this lecture to appear in the updates section
-hide_from_announcments: true
-hide_from_schedules: true
+hide_from_announcments: false
+hide_from_schedules: false
 
 # optional
 links:
@@ -21,18 +21,18 @@ links:
   name: excerpt
 - url: https://vimeo.com/542975970
   name: video_Vision_and_Mission
-  hide_from_lectures: true
+  hide_from_lectures: false
 - url: https://vimeo.com/540717844
   name: video_Real_Pain_Part_2
-  hide_from_lectures: true
+  hide_from_lectures: false
 - url: https://vimeo.com/540717806
   name: video_Real_Pain_Part_1
-  hide_from_lectures: true
+  hide_from_lectures: false
 - url: https://vimeo.com/540717764
   name: video_Entrepreneurial_Mindset
-  hide_from_lectures: true
+  hide_from_lectures: false
 - url: https://vimeo.com/542975956
   name: video_Negotiation
-  hide_from_lectures: true
+  hide_from_lectures: false
 ---
 
