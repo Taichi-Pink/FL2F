@@ -2,7 +2,7 @@
 type: exam
 date: 2022-07-28T09:00:00
 description: 'Socond 1/1 Meeting with Coach (2)'
-hide_from_announcments: true
+hide_from_announcments: false
 ---
 
 **Meeting Schedule:**
